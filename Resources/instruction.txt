@@ -1,0 +1,30 @@
+directroy server:
+1. npm init -y
+2. npm i express mongoose cors bcryptjs dotenv jsonwebtoken
+3. npm i nodemon -D
+
+project terminal:
+1. npx create-react-app .
+2. cd client
+3. npm run start
+
+https://tailwindcss.com/ ДЛЯ СТИЛИЗАЦИИ
+
+1. cd client 
+2. npm install -D tailwindcss postcss autoprefixer
+3. npx tailwindcss init -p
+
+for routing in client
+1. npm install react-router-dom@6 
+
+for redux toolkit in client:
+1. npm install @reduxjs/toolkit react-redux
+
+axios installing in client
+1. npm i axios
+2. npm i react-toastify
+
+on server: npm i express-fileupload
+
+on client: npm install react-icons --save
+npm i react-moment
