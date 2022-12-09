@@ -11,6 +11,7 @@ export const AddPostPage = () => {
     const dispatch = useDispatch()
     const navigate = useNavigate()
 
+
     const submitHandler = () => {
         try {
             const data = new FormData()
@@ -19,6 +20,9 @@ export const AddPostPage = () => {
             data.append('image', image)
             dispatch(createPost(data))
             navigate('/')
+            window.location.reload(); 
+            
+
         } catch (error) {
             console.log(error)
         }
