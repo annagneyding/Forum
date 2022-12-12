@@ -20,7 +20,7 @@ export const AddPostPage = () => {
             data.append('image', image)
             dispatch(createPost(data))
             navigate('/')
-            window.location.reload(); 
+            // window.location.reload(); 
             
 
         } catch (error) {
